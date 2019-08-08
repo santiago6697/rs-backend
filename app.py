@@ -21,12 +21,16 @@ def index():
   dress_code = request.json['dress_code']
   parking_lot = request.json['parking_lot']
   price = request.json['price']
+  lat = request.json['lat']
+  lng = request.json['lng']
   print(r_payment)
   print(accesibility)
   print(alcohol)
   print(dress_code)
   print(parking_lot)
   print(price)
+  print(lat)
+  print(lng)
   response = json.dumps(response)
   recommendations = 'qswdeq'
   status = 204
