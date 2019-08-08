@@ -1,1 +1,3 @@
-!.vscode/
+.vscode/
+*.csv
+top_knn.py
